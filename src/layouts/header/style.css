@@ -1,0 +1,78 @@
+.header-navbar {
+    background-color: white;
+    width: 99%;  
+    padding: 15px 15px 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.header-navbar-off {
+    display: none;
+}
+.header-navbar p {
+    color: #808080;
+    height: 40px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.header-white {
+    position: fixed;
+    top: 70px; 
+    height: 90px;
+    background-color: white;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-white-off {
+    position: fixed;
+    z-index: 2;
+    top: 0px; 
+    height: 90px;
+    background-color: white;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-white p, .header-white-off p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    margin: 0;
+}
+.header-red {
+    position: fixed;
+    top: 160px; 
+    height: 44px;
+    background-color: #FF0000;
+    width: 100%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-red-off {
+    position: fixed;
+    z-index: 2;
+    top: 90px; 
+    height: 44px;
+    background-color: #FF0000;
+    width: 100%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-red p, .header-red-off p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.header-logo {
+    width: 157px;
+    height: 70px;
+    cursor: pointer;
+}

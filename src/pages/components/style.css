@@ -1,0 +1,129 @@
+.HR-register {
+    background-color: #FF0000;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 30px;
+}
+.HR-input-general{
+    display: flex;
+    flex-direction: column;
+}
+.HR-input {
+   width: 90%;
+   margin: auto;
+   height: 50px;
+   background-color: white;
+   border-radius: 10px;
+   border: 1px solid #dcdcdc;
+   padding: 0 10px;
+   color: #000;
+   font-size: 18px;
+}
+.HR-input-phone {
+    width: 93%;
+    margin: auto;
+    --react-international-phone-height: 50px;   
+    --react-international-phone-border-radius: 10px;   
+    --react-international-phone-font-size: 18px;
+    background-color: white; 
+    padding: 0 10px;
+    color: #000;
+    font-size: 18px;  
+    position: relative;
+    z-index: 0;
+ }
+.HR-button{
+    background-color: #FF0000;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 800;
+    box-shadow: #ed1c24 0 0 0 0;
+    border: #fff solid 1px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    animation: 2s ease 0s infinite normal none running pulsing;
+}
+@keyframes pulsing {
+    100% {
+        box-shadow: rgba(0, 0, 0, 0) 0 0 0 20px;
+    }
+}
+.HR-button-subtitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.HP-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.HP-div-head {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 60px;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+.HP-div-table {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 60px;
+    align-items: center;
+    background-color: #FFF;
+}
+.HP-point-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 5px;
+    background-color: #00c500;
+    margin-right: 5px;
+}
+.HP-text-table {
+    width: 30%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.HC-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.HC-divider {
+    border: solid 1px black;
+}
+
+.HC-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.HC-interactions {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.HC-list-items {
+    width: 100px;
+    list-style: none;
+}
